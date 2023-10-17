@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.carrousel{
+  position: absolute;
+  /* Define as margens automáticas horizontal e verticalmente */
+  margin: auto;
+  /* Define a largura e a altura máximas para o carrossel */
+  max-width: 800px; /* Ajuste conforme necessário */
+  max-height: 400px; /* Ajuste conforme necessário */
+  /* Opcional: Adicione um plano de fundo ou estilos visuais */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  /* Opcional: Defina a rolagem se o conteúdo do carrossel for maior do que suas dimensões */
+  overflow: auto;
+}
+
+.carrossel img {
+  width: 100%; /* Isso fará com que todas as imagens tenham a mesma largura */
+  height: auto; /* Mantém a proporção de altura */
+}
+
+.cards{
+  display: flex; /* Use flexbox para centralizar e alinhar à direita */
+  justify-content: right;
+  text-align: center;
+  height: 300px;
+}
+
+.card {
+  display: flex; /* Use flexbox para centralizar e alinhar à direita */
+  justify-content: center; /* Centralize horizontalmente no contêiner */
+  align-items: center;
+  text-align: center;
+  width: 100px; /* Ajuste a largura do cartão conforme necessário */
+  margin: 20px; /* Espaçamento entre os cartões */
+  /* Estilos visuais para os cartões, como fundo e borda */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+h1{
+  display: flex;
+  padding: 100px;
+}
+.Card-Img{
+  display: flex;
+  width: 80px; /* Ajuste a largura do cartão conforme necessário */
+  height: 150px;
+  margin: 20px;
+}
