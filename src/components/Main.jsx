@@ -1,4 +1,4 @@
-import {Container,Card,Button} from 'react-bootstrap';
+import {Container,Card,Button,Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Main = () => {
